@@ -1,0 +1,127 @@
+.countryInfo {
+  padding: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 70px 40px 40px 40px;
+}
+
+
+@media (max-width: 768px) {
+  .countryInfo {
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+  }
+}
+
+.flag {
+  width: 200px;
+}
+
+
+@media (max-width: 768px) {
+  .flag {
+    width: 150px;
+  }
+}
+
+.bordersList {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+}
+
+.bordersList li {
+  margin: 10px 0;
+}
+
+.bordersList a {
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: text-shadow 0.3s;
+}
+
+
+@media (max-width: 768px) {
+  .bordersList a {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+}
+
+
+.countryInfo__title {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+}
+
+.countryInfo__subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .countryInfo__title {
+    font-size: 1.5rem;
+  }
+
+  .countryInfo__subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+
+.container {
+  padding: 20px;
+}
+
+
+.title {
+  font-size: 2em;
+}
+
+
+.flag {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .flag {
+    width: 80px;
+  }
+}
+
+
+.chartContainer {
+  width: 100%;
+  max-width: 600px; 
+  margin: 0 auto; 
+  height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .chartContainer {
+    max-width: 90%; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .countryInfo {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .flag {
+    width: 80px;
+  }
+
+  .bordersList a {
+    font-size: 0.8rem;
+  }
+}

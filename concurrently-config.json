@@ -1,0 +1,17 @@
+{
+    "commands": {
+      "frontend": {
+        "command": "npm start",
+        "cwd": "frontend",
+        "name": "FE",
+        "prefixColor": "green"
+      },
+      "backend": {
+        "command": "npm start",
+        "cwd": "backend",
+        "name": "BE",
+        "prefixColor": "blue"
+      }
+    }
+  }
+  

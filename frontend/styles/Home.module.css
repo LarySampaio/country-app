@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  min-height: 100vh; 
+  background-color: rgba(255, 255, 255, 255);
+  background-image: url(https://img.freepik.com/vetores-premium/mapa-mundial-com-fronteiras-de-paises_47243-900.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0; 
+  font-size: 60px; 
+  margin-top: 70px;
+}
+
+.list {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; 
+  margin-top: 150px;
+  margin-left: 40px;
+  margin-right: 40px; 
+  margin-bottom: 20px;
+  list-style-type: none; 
+}
+
+.list li {
+  margin: 10px 0;
+
+}
+
+.list a {
+ 
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-weight: bold; 
+  text-decoration: none; 
+  transition: text-shadow 0.3s;
+  }
+
+.list a:hover {
+  text-shadow: 0 0 10px rgb(0, 174, 255);
+}
