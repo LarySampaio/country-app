@@ -25,4 +25,5 @@ To run this project, you need to install dependencies for both the frontend and 
    npm run start
 
 OBS: The response takes a few seconds to load, if it does not load at first, refresh the page (:
+
 OBS²: The application runs the frontend and backend simultaneously at http://localhost:3000/
