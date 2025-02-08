@@ -26,7 +26,35 @@ This project was built using the following technologies:
 To run this project locally, you will need to install dependencies for both the frontend and backend. Follow these steps:
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/LarySampaio/country-app.git
    cd country-app
+   ```
+
+2. Install dependencies for the backend:
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. Install dependencies for the frontend:
+   ```bash
+   cd ../frontend
+   npm install
+   npm run build
+   ```
+
+4. Running the project:
+   ```bash
+   cd ..  # Go to the root of the project
+   npm install
+   npm run start
+   ```
+
+> **Note:** The application may take a few seconds to load the country data. If it does not load at first, please refresh the page.
+
+> **Note²:** The application runs both the frontend and backend simultaneously at [http://localhost:3000/](http://localhost:3000/).
+
+## **Usage**
+
+Simply open the application in your browser at [http://localhost:3000/](http://localhost:3000/). On the main page, you can select a country to view detailed information about it, including its bordering countries.
